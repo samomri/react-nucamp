@@ -27,7 +27,7 @@ function RenderComments({comments, addComment, campsiteId}){
                 {comments.map(comment=>{
                     return (
                         <div key={comment.id}>
-                          <p>{comment.text}<br/>
+                          <p>{comment.text} -- {comment.rating} stars<br/>
                           -- {comment.author}, {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))}
                           </p>
                         </div>
