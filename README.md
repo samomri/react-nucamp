@@ -11,4 +11,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Image 
 
-![Nucamp Snapshot](./public/assets/images/Opera Snapshot_2022-04-27_035613_52.91.200.15.png)
+<img src="public/assets/images/Opera Snapshot_2022-04-27_035613_52.91.200.15.png" />
